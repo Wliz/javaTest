@@ -27,6 +27,7 @@ public class Main {
 //        	}
 //        }
         //====================
+        System.out.println();
         for(int x = a.length/2; x > 0; x/=2){
         	for(int i = x; i < a.length; i++){
         		for(int j = i - x;j >= 0&&a[j] > a[j + x]; j-= x){
@@ -35,6 +36,10 @@ public class Main {
         			a[j + x] = temp;
         		}
         	}
+        	for(int k = 0; k < a.length; k++){
+        		System.out.print(a[k] + " ");
+        	}
+        	System.out.println();
         }
 //===========================================================
         
