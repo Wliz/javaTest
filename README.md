@@ -15,7 +15,7 @@
 本工作室常年承接各种软件工程项目，商业类、校园类、个人类项目构建。
 更多项目实例参考请参阅： [未来工作室项目展][show] 
 
-[show]: https://github.com/liuyang8091216 "未来工作室项目展"
+[show]: https://github.com/futureGroup511 "未来工作室项目展"
 
 
 
