@@ -27,15 +27,15 @@ public class Main {
 //        	}
 //        }
         //====================
-//        for(int x = a.length/2; x > 0; x/=2){
-//        	for(int i = x; i < a.length; i++){
-//        		for(int j = i - x;j >= 0&&a[j] > a[j + x]; j-= x){
-//        			int temp = a[j];
-//        			a[j] = a[j + x];
-//        			a[j + x] = temp;
-//        		}
-//        	}
-//        }
+        for(int x = a.length/2; x > 0; x/=2){
+        	for(int i = x; i < a.length; i++){
+        		for(int j = i - x;j >= 0&&a[j] > a[j + x]; j-= x){
+        			int temp = a[j];
+        			a[j] = a[j + x];
+        			a[j + x] = temp;
+        		}
+        	}
+        }
 //===========================================================
         
 //        for (gap = n / 2; gap > 0; gap /= 2) {// 计算gap大小
@@ -54,14 +54,14 @@ public class Main {
 //        	        }
         
         //插入排序
-        for(int i = 1; i < a.length; i++){
-        	int j;
-        	for(j = i - 1; j >= 0 && a[j] > a[j + 1]; j--){
-        		int temp = a[j + 1];
-        		a[j + 1] = a[j];
-        		a[j] = temp;
-        	}
-        }
+//        for(int i = 1; i < a.length; i++){
+//        	int j;
+//        	for(j = i - 1; j >= 0 && a[j] > a[j + 1]; j--){
+//        		int temp = a[j + 1];
+//        		a[j + 1] = a[j];
+//        		a[j] = temp;
+//        	}
+//        }
 
         System.out.println();
         System.out.println("排序之后：");
