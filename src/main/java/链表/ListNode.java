@@ -1,5 +1,9 @@
 package 链表;
 
+/**
+ * @author a9858
+ *title 链表
+ */
 public class ListNode {
 
 	public int val;
