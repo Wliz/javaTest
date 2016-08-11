@@ -4,6 +4,7 @@ public class StringTest {
 	public static void main(String[] args) {
 		String str = replaceSpace(new StringBuffer("wo are heppy"));
 		System.out.println(str);
+		System.out.println("这是改动的地方");
 	}
 	
 	 public static String replaceSpace(StringBuffer str) {
