@@ -1,5 +1,10 @@
 package 链表;
 
+/**
+ * @author a9858
+ *
+ *package 链表
+ */
 public class ListNodeTest {
 	public static ListNode head = null;
 	public static ListNode tail = null;
