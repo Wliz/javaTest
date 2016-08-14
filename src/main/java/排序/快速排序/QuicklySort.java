@@ -1,5 +1,10 @@
 package 排序.快速排序;
 
+/**
+ * 快速排序是不稳定的
+ * @author a9858
+ *
+ */
 public class QuicklySort {
 	public static void main(String[] args) {
 		int[] a={49,38,65,97,76,13,27,49,78,34,12,64,1,8};
