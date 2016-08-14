@@ -1,16 +1,22 @@
 package 排序.直接插入排序;
 
+/**
+ * 直接插入排序是稳定的
+ * @author a9858
+ *
+ */
 public class Main {
 
 	public static void main(String[] args) {
-//		int[] a={49,38,65,97,76,13,27,49,78,34,12,64,1};
-		int[] a = {1, 2, 4, 3, 5};
+		int[] a={49,38,65,97,76,13,27,49,78,34,12,64,1};
+//		int[] a = {1, 2, 4, 3, 5};
 
 		System.out.println("排序之前：");
          for (int i = 0; i < a.length; i++) {
               System.out.print(a[i]+" ");
          }
          
+         long startTime = System.currentTimeMillis();
         //直接插入排序
         for(int i = 1; i < a.length; i++){
         	int temp = a[i];
@@ -24,7 +30,10 @@ public class Main {
         	}
         	a[j + 1] = temp;
         }
+        long endTime = System.currentTimeMillis();
+        
         System.out.println();
+        System.out.println("the time of work is : " + (endTime - startTime));
         System.out.println("排序之后：");
         for (int i = 0; i < a.length; i++) {
              System.out.print(a[i]+" ");

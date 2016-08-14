@@ -1,5 +1,10 @@
 package 排序.二分法排序;
 
+/**
+ * 二分法排序是稳定的
+ * @author a9858
+ *
+ */
 public class Main {
 	public static void main(String[] args) {
 //        int[] a={49,38,65,97,176,213,227,49,78,34,12,164,11,18,1};
@@ -9,8 +14,11 @@ public class Main {
             System.out.print(a[i]+" ");
         }
         //二分插入排序
+        long startTime = System.currentTimeMillis();
         sort(a);
+        long endTime = System.currentTimeMillis();
         System.out.println();
+        System.out.println("the time of work is : " + (endTime - startTime));
         System.out.println("排序之后：");
         for (int i = 0; i < a.length; i++) {
             System.out.print(a[i]+" ");

@@ -1,5 +1,10 @@
 package 排序.希尔排序;
 
+/**
+ * 希尔排序是不稳定的
+ * @author a9858
+ *
+ */
 public class Main {
 
 	
@@ -28,6 +33,7 @@ public class Main {
 //        }
         //====================
         System.out.println();
+        long startTime = System.currentTimeMillis();
         for(int x = a.length/2; x > 0; x/=2){
         	for(int i = x; i < a.length; i++){
         		for(int j = i - x;j >= 0; j-= x){
@@ -43,6 +49,7 @@ public class Main {
         	}
         	System.out.println();
         }
+        long endTime = System.currentTimeMillis();
 //===========================================================
         
 //        for (gap = n / 2; gap > 0; gap /= 2) {// 计算gap大小
@@ -71,6 +78,7 @@ public class Main {
 //        }
 
         System.out.println();
+        System.out.println("the time of work is : " + (endTime - startTime));
         System.out.println("排序之后：");
         for (int i = 0; i < a.length; i++) {
             System.out.print(a[i]+" ");

@@ -1,5 +1,10 @@
 package 排序.选择排序;
 
+/**
+ * 选择排序是不稳定的
+ * @author a9858
+ *
+ */
 public class Main {
 
 	public static void main(String[] args) {
@@ -10,6 +15,7 @@ public class Main {
             System.out.print(a[i]+" ");
         }
 		System.out.println();
+		long startTime = System.currentTimeMillis();
         System.out.println("排序过程中：");
 		for(int i = 0; i < a.length; i++){
 			int min = a[i];
@@ -27,6 +33,8 @@ public class Main {
 			}
 			System.out.println();
 		}
+		long endTime = System.currentTimeMillis();
+		System.out.println("the time of work is : " + (endTime - startTime));
 		
 		 //简单的选择排序
 //        for (int i = 0; i < a.length; i++) {
