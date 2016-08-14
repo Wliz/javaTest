@@ -1,9 +1,10 @@
 package 排序.希尔排序;
 
-/**
- * 希尔排序是不稳定的
- * @author a9858
- *
+/** 
+ * @ClassName: Main 
+ * @Description: 希尔排序，不稳定的排序
+ * @author: a9858
+ * @date: 2016年8月14日 下午8:38:04  
  */
 public class Main {
 

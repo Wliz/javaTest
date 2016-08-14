@@ -1,9 +1,9 @@
 package 排序.二分法排序;
-
-/**
- * 二分法排序是稳定的
- * @author a9858
- *
+/** 
+ * @ClassName: Main 
+ * @Description: 二分法排序 稳定的排序
+ * @author: a9858
+ * @date: 2016年8月14日 下午8:36:06  
  */
 public class Main {
 	public static void main(String[] args) {

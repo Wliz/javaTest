@@ -1,9 +1,10 @@
 package 排序.快速排序;
 
-/**
- * 快速排序是不稳定的
- * @author a9858
- *
+/** 
+ * @ClassName: QuicklySort 
+ * @Description: 快速排序，不稳定的排序
+ * @author: a9858
+ * @date: 2016年8月14日 下午8:37:07  
  */
 public class QuicklySort {
 	public static void main(String[] args) {

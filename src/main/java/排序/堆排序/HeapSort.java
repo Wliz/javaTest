@@ -1,8 +1,13 @@
 package 排序.堆排序;
 
-//不稳定
 import java.util.Arrays;
 
+/** 
+ * @ClassName: HeapSort 
+ * @Description: 堆排序，不稳定的排序
+ * @author: a9858
+ * @date: 2016年8月14日 下午8:35:41  
+ */
 public class HeapSort {
   public static void main(String[] args) {
       int[] a={49,38,65,97,76,13,27,49,78,34,12,64};

@@ -1,9 +1,10 @@
 package 链表;
 
-/**
- * @author a9858
- *
- *package 链表
+/** 
+ * @ClassName: ListNodeTest 
+ * @Description: 链表的头插法和尾插法
+ * @author: a9858
+ * @date: 2016年8月14日 下午8:34:56  
  */
 public class ListNodeTest {
 	public static ListNode head = null;

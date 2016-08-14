@@ -1,8 +1,10 @@
 package 链表;
 
-/**
- * @author a9858
- *title 链表
+/** 
+ * @ClassName: ListNode 
+ * @Description: 链表类
+ * @author: a9858
+ * @date: 2016年8月14日 下午8:35:25  
  */
 public class ListNode {
 

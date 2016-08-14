@@ -1,5 +1,11 @@
 package 剑指offer;
 
+/** 
+ * @ClassName: StringTest 
+ * @Description: String字符串测试
+ * @author: a9858
+ * @date: 2016年8月14日 下午8:34:24  
+ */
 public class StringTest {
 	public static void main(String[] args) {
 		String str = replaceSpace(new StringBuffer("wo are heppy"));
