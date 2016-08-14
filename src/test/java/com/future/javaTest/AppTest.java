@@ -59,6 +59,11 @@ public class AppTest
 //    	if(1) 报错：Type mismatch: cannot convert from int to boolean
     	//原因是：java中的if语句条件必须是boolean，写成int类型的话不能转成boolean所以报错。
     		
-    	
+    	boolean flag = false;
+    	if(flag = true){
+    		System.out.println("true");
+    	}else{
+    		System.out.println("false");
+    	}
     }
 }
