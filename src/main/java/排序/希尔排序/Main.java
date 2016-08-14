@@ -30,10 +30,12 @@ public class Main {
         System.out.println();
         for(int x = a.length/2; x > 0; x/=2){
         	for(int i = x; i < a.length; i++){
-        		for(int j = i - x;j >= 0&&a[j] > a[j + x]; j-= x){
-        			int temp = a[j];
-        			a[j] = a[j + x];
-        			a[j + x] = temp;
+        		for(int j = i - x;j >= 0; j-= x){
+        			if (a[j] > a[j + x]) {
+						int temp = a[j];
+						a[j] = a[j + x];
+						a[j + x] = temp;
+					}
         		}
         	}
         	for(int k = 0; k < a.length; k++){
