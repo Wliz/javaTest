@@ -27,7 +27,7 @@
 
 分析
 -----
-* [算法分析](https://github.com/fanyangyanggithub/javaTest/tree/master/src/main/java/%E6%8E%92%E5%BA%8F/%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F)
+* [算法分析](https://github.com/fanyangyanggithub/javaTest/blob/master/src/main/java/%E6%8E%92%E5%BA%8F/readme.md)
 
 ------------------------------------------------------------
 
