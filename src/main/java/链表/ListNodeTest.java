@@ -1,5 +1,7 @@
 package 链表;
 
+import 剑指offer.ListNode;
+
 /** 
  * @ClassName: ListNodeTest 
  * @Description: 链表的头插法和尾插法
