@@ -7,6 +7,7 @@ import java.util.LinkedList;
  * @ClassName: FindPath
  * @Description: 输入一颗二叉树和一个整数，打印出二叉树中结点值的和为输入整数的所有路径。
  *               路径定义为从树的根结点开始往下一直到<strong>叶结点</strong>所经过的结点形成一条路径。
+ *               有疑问：不知道为什么在提交到牛客网的时候，如果<code>result</code>和<code>list</code>还有FindPath方法定义成静态，就不能通过全部测试
  * @author: a9858
  * @date: 2016年8月30日 下午5:35:42
  */
